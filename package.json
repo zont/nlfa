@@ -1,6 +1,6 @@
 {
   "name": "nlfa",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Utility for attempting to identify the licenses and author of modules in a nodejs project",
   "main": "index.js",
   "bin": {

@@ -26,11 +26,12 @@ nlfa [options] <target>
 
 options:
   - `-p`, `--production` (Default: false) - exclude devDependencies
+  - `-j`, `--json` (Default: false) - output in JSON
 
-<target> is `license.csv` by default
+<target> is `licenses.csv` or `licenses.json` by default
 ```
 
 Example:
 ```sh
-nlfa -p licenses.csv
+nlfa -p licenses-with-authors.csv
 ```
