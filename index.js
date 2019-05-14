@@ -36,12 +36,12 @@ const collectDeps = async (deps, dep, prodOnly) => {
   deps.sort((a, b) => a.name.localeCompare(b.name));
 
   if (args.includes('-j') || args.includes('--json')) {
-    await writeCsv(
+    await writeJson(
       path.join(DIR, args.filter(i => i.indexOf('-') !== 0)[0] || 'licenses.json'),
       deps
     );
   } else {
-    await writeJson(
+    await writeCsv(
       path.join(DIR, args.filter(i => i.indexOf('-') !== 0)[0] || 'licenses.csv'),
       deps
     );
