@@ -5,7 +5,7 @@
 [travis_image_url]: https://api.travis-ci.org/zont/nlfa.svg
 [travis_page_url]: https://travis-ci.org/zont/nlfa
 
-nlf is a utility for attempting to identify the licenses and author of modules in a nodejs project.
+nlfa is a utility for attempting to identify the licenses and author of modules in a nodejs project.
 
 It looks for license information in package.json, readme and license files in the project.
 Please note, in many cases the utility is looking for standard strings in these files, such as MIT, BSD, Apache,
