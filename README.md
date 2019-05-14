@@ -26,6 +26,8 @@ nlfa [options] <target>
 
 options:
   - `-p`, `--production` (Default: false) - exclude devDependencies
+
+<target> is `license.csv` by default
 ```
 
 Example:
